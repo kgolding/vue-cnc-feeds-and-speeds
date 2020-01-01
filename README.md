@@ -1,4 +1,6 @@
-# app
+# CNC Speeds and Feeds calulator (VueJS app)
+
+**Work in progress**
 
 ## Project setup
 ```

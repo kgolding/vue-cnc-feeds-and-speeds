@@ -1,28 +1,20 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <h1>CNC Speeds and feeds</h1>
+    <cnc-form></cnc-form>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CncForm from "./components/CncForm.vue"
+
+// import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    CncForm
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
